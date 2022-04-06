@@ -8,7 +8,7 @@ import Penguin from './Penguin';
 function App() {
 
   const [seconds, setSeconds] = useState(0);
-  // const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(true);
 
   const desc_list = ["Human", "Cs Student", "Tech Entusiast"]
 
