@@ -41,7 +41,7 @@ function Penguin () {
         .catch(error => {
             console.log(error);
         }).finally(() => { setLoading(false)});
-    }, [loading]);
+    }, []);
 
     if (loading) return "loading...";
 

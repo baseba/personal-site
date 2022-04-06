@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Footer from './Footer';
+// import Footer from './Footer';
 import React, {useState, useEffect} from 'react';
-import { list } from 'postcss';
+// import { list } from 'postcss';
 import Penguin from './Penguin';
 
 function App() {
 
   const [seconds, setSeconds] = useState(0);
-  const [isActive, setIsActive] = useState(true);
+  // const [isActive, setIsActive] = useState(true);
 
   const desc_list = ["Human", "Cs Student", "Tech Entusiast"]
 
