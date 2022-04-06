@@ -1,0 +1,14 @@
+/* body {
+    font-size: large;
+    font-family: sans-serif;
+
+} */
+body {
+    background-color: #ECE6C2;
+    color: #61dafb;
+    margin-bottom: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
