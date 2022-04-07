@@ -8,21 +8,14 @@ import Penguin from './Penguin';
 function App() {
 
   const [seconds, setSeconds] = useState(0);
-  const [isActive, setIsActive] = useState(true);
 
   const desc_list = ["Human", "Cs Student", "Tech Entusiast"]
 
   useEffect(() => {
-    let interval = null;
-    if (isActive) {
-      interval = setInterval(() => {
-        setSeconds(seconds => seconds + 1);
-      }, 2000);
-    } else if (!isActive && seconds !== 0) {
-      clearInterval(interval);
-    }
-    return () => clearInterval(interval);
-  }, [isActive, seconds]);
+    setInterval(() => {
+      setSeconds(seconds => seconds + 1);
+    }, 2000);
+  }, [seconds]);
 
   return (
     <>
