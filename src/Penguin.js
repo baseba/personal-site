@@ -49,11 +49,10 @@ function Penguin () {
         <>
         {/* {console.log(data["results"][0]["name"]["first"])} */}
         <div class="flex flex-col items-center">
-            <h2 class ="text-center text-xl text-white py-4">Congratulations! your companion 🐧 is ...</h2>
+            <h2 class ="text-center text-xl text-white sd:py-4 py-2">Congratulations! your companion 🐧 is ...</h2>
             <img src={penguins[penguin]} alt="pinguino" class=" w-32 h-48 object-fill border-4 border-amber-800 rounded-sm"/>
-            <h1 class="text-center text-xl py-8 text-white">{data["results"][0]["name"]["title"]}. {data["results"][0]["name"]["first"]} {data["results"][0]["name"]["last"] } the penguin</h1>
-            <button onClick={() => {getPenguin()}} class="bg-yellow-200 text-gray-800 rounded-md p-2 border-4 border-amber-800 text-lg"> get a new penguin </button>
-            <div class="h-16"></div>
+            <h1 class="text-center py-2 text-xl text-white">{data["results"][0]["name"]["title"]}. {data["results"][0]["name"]["first"]} {data["results"][0]["name"]["last"] } the penguin</h1>
+            <button onClick={() => {getPenguin()}} class="bg-yellow-200 text-gray-800 rounded-md mb-3 p-2 border-4 border-amber-800 text-lg"> get a new penguin </button>
         </div>
 
         </>

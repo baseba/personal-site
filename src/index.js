@@ -8,7 +8,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div class="h-48"></div>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

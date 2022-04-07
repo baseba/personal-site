@@ -20,14 +20,14 @@ function App() {
 
   return (
     <>
-    <div>
+    <div class="flex !items-center justify-center  min-h-[100vh] ">
 
-      <div className="App" class="grid grid-cols-6 content-center">
+      <div className="App" class="flex flex-col w-auto my-4">
         {/* create a nice presentation site */}
-        <div class="col-span-6 py-4 sm:min-h-[15vh] row-start-1" />
-        <div class="bg-[#CC6B49] col-start-2 col-span-4 row-span-4 row-start-2 rounded-t-3xl">
+
+        <div class="bg-[#CC6B49] rounded-t-3xl">
           <div class="flex items-center flex-col">
-            <h1 class="flex-auto py-8 md:text-8xl md:text-center text-center text-4xl text-white">
+            <h1 class="flex-auto md:text-8xl md:text-center mt-4 text-center text-4xl text-white">
               Sebastián Espejo
             </h1>
             <h2 class="flex-auto py-2 md:text-6xl md:text-center text-center text-2xl text-white">
