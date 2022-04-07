@@ -12,10 +12,11 @@ function App() {
   const desc_list = ["Human", "Cs Student", "Tech Entusiast"]
 
   useEffect(() => {
-    setInterval(() => {
+    const interval = setInterval(() => {
       setSeconds(seconds => seconds + 1);
     }, 2000);
-  }, [seconds]);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
