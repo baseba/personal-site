@@ -9,7 +9,7 @@ function App() {
 
   const [seconds, setSeconds] = useState(0);
 
-  const desc_list = ["Human", "Cs Student", "Tech Entusiast"]
+  const desc_list = ["Human 🌎", "Cs Student 🤓", "Tech Entusiast 👨‍💻"]
 
   useEffect(() => {
     const interval = setInterval(() => {
