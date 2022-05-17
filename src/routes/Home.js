@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import Penguin from '../Penguin';
 import Footer from '../Footer';
 
-function Index() {
+function Home() {
 
   const [seconds, setSeconds] = useState(0);
 
@@ -50,4 +50,4 @@ function Index() {
 
 }
 
-export default Index;
+export default Home;
