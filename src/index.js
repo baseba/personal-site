@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Index from './routes/Index';
+// import Index from './routes/Index';
 
 ReactDOM.render(
   <React.StrictMode>

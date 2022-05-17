@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Penguin from '../Penguin';
+// import Penguin from '../Penguin';
 import Footer from '../Footer';
 
 function LeagueTracker() {
